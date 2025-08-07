@@ -58,7 +58,7 @@ void listFiles() {
         }
         case 3: {
             string pattern;
-            cout << "Enter file pattern (substring match, e.g., moha): ";
+            cout << "Enter file pattern (substring match, e.g., marco): ";
             getline(cin, pattern);
             listFilesByPattern(pattern);
             break;
